@@ -12,6 +12,8 @@ Application exposes following endpoints
 
 /login
 
+/refresh (for refreshing the token with new expiration date)
+
 /user
 
 /person/{id}
