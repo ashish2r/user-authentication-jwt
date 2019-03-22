@@ -11,10 +11,12 @@ This is just a sample user management application using **JSON Web Token (JWT)**
 Application exposes following endpoints
 
 /login
+
 /user
+
 /person/{id}
 
-The login end point will return the JWT token which the client should send back as Authorization header with the value as "Bearer " + token, in order to be able to retrieve the user details or person details
+The login end point will return the JWT token which the client should send back as Authorization header with the value as "Bearer " + token, in order to be able to retrieve the user details or person details.
 
 ### Login Credentials
 
