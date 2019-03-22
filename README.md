@@ -24,6 +24,8 @@ araut/arautpwd
 
 jsmith/jsmithpwd
 
+New users can be created in the database (H2) by accessing /h2-console.  The password is encrypted using the BycryptPasswordEncoder.
+
 ## Creator
 
 **Ashish Raut**
