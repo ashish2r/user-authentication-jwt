@@ -56,6 +56,7 @@ $(function () {
 
     function doLogout() {
         removeJwtToken();
+		removePersonId();
         $login.show();
         $userInfo
             .hide()
